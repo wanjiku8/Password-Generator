@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(125, 169, 107);
+}
+
+
+section .rectangle{
+    margin-top: 50px;
+    padding-top: 30px;
+    width: 400px;
+    height: 350px;
+    background: rgb(175, 250, 105);
+    margin-left: 100px;
+    border-radius: 20px;
+    
+}
+
+section p{
+    font-size: 1.1em;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+ section button{
+    background: rgb(10, 168, 92);
+    border: none;
+    height: 20px;
+    width: 339px;
+    color: antiquewhite;
+    font-size: 17px;
+    border-radius: 7px;
+    margin-top: 45px;
+    margin-left: 32px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    
+}
+section button:hover{
+    color: black;
+    background: rgb(249, 248, 246);
+}
+
+section #pass-box{
+    
+    width: 100%;
+    display: block;
+    background-color: rgb(249, 249, 248);
+    font-size: 30px;
+    
+    border-radius: 10px;
+}
+
+section #total{
+    width: 50px;
+    margin-left: 150px;
+    border: none;
+    border-radius: 3px;
+    
+}
+section #uppercase{
+    margin-left: 130px; 
+    height: 20px;
+    width: 15px;
+}section #lowercase{
+    margin-left: 130px; 
+    height: 20px;
+    width: 15px;
+}
+section #numbers{
+    margin-left: 150px; 
+    height: 20px;
+    width: 15px;
+}
+section #symbols{
+    height: 20px;
+    width: 15px;
+    margin-left: 150px; 
+
+}

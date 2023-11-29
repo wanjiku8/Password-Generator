@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASSWORD</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<section>
+    <div class="rectangle">
+        <span id="pass-box"> testing</span>
+        <p>Password Length
+            <input type="number" id="total" max="30" min="2" value="2" >
+        </p>
+        <p>
+            Contains Upper Case
+        <input  type="checkbox"  id="uppercase" checked>
+        </p>
+       
+        <p>
+            Contains Lower Case
+           <input type="checkbox" id="lowercase">
+        </p>
+
+        <p>
+            Contains Numbers
+           <input type="checkbox" id="numbers">
+        </p>
+        <p>
+            Contains Symbols
+           <input  type="checkbox" id="symbols">
+        </p>
+
+
+
+        <button id="btn">Generate</button>
+    </div>
+</section>
+
+
+   <script src="./script.js"></script> 
+</body>
+</html>
